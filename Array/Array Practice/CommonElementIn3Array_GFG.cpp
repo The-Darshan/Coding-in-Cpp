@@ -6,7 +6,7 @@ using namespace std;
 void Common_Element2(int arr1[] , int arr2[] , int arr3[] , int n1 , int n2 , int n3){
 
     int i=0,j=0,k=0;
-    set<int> st; // Stores inly unique element.
+    set<int> st; // Stores only unique element.
     vector <int> ans;
 
     while(i<n1 && j<n2 && k<n3 ){

@@ -60,7 +60,7 @@ int Pivot_ele(int arr[] , int n , int start , int end){
 
 int main(){
 
-    int arr[] = {7,1,2,3,4};
+    int arr[] = {4,5,6,7,0,1,2};
     int n = sizeof(arr)/sizeof(int);
     int start = 0;
     int end = n-1;

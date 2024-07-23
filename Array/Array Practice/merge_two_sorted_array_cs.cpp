@@ -35,8 +35,8 @@ vector<int> merge_sorted_array(vector<int> v1 , vector<int> v2){
 
 int main(){
 
-    vector<int> v1 = {1, 2 , 3  , 0 , 0};
-    vector<int> v2 = {4 ,5};
+    vector<int> v1 = {0};
+    vector<int> v2 = {1};
 
     merge_sorted_array(v1 , v2);
 

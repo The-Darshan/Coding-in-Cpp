@@ -11,23 +11,23 @@ void hashed_ans(int arr[], int n) {
         if (arr[i] == arr[i - 1]) {
             count++;
         } else {
-            arr2[k] = count; // save the count
+            // arr2[k] = count; // save the count
             if (count > 1) {
                 cout << arr[i - 1] << " ";
             }
-            k++;
+            // k++;
             count = 1; // reset the count for the new number
         }
     }
     // handle the last group of numbers
-    arr2[k] = count;
+    // arr2[k] = count;
     if (count > 1) {
         cout << arr[n - 1] << " ";
     }
 }
 
 int main() {
-    int arr[] = {1, 2 , 2};
+    int arr[] = {1};
     int n = sizeof(arr) / sizeof(int);
 
     sort(arr, arr + n);

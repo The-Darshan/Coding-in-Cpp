@@ -3,25 +3,6 @@
 #include<vector>
 using namespace std;
 
-// vector<int> findClosestElements(vector<int> &v , int k ,int x){
-
-//     vector<int>ans;
-
-//     for(int i=0;i<v.size();i++){
-//         ans.push_back(abs(v[i]-x));
-//     }
-
-//     // sort(v.begin(),v.end());
-
-//     // for(int i=0;i<k;i++){
-//     //     ans.push_back(v[i]);
-//     // }
-
-//     for(int i=0;i<ans.size();i++){
-//         cout<<ans[i]<<" ";
-//     }
-// }
-
 vector<int> findClosestElements(vector<int> &v , int k ,int x){
 
     int low =0 , high = v.size()-1;
@@ -52,6 +33,8 @@ vector<int> findClosestElements(vector<int> &v , int k ,int x){
     // TC => O(n);
     // SC => O(k);
 }
+
+
 
 int main(){
 
