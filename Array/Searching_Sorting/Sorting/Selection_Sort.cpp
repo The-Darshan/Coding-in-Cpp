@@ -6,7 +6,7 @@ void selection_sort(int arr[] , int n){
 
     for(int i=0 ; i<n-1 ;i++){
         int minimum = i;
-// min arr[i] isliye nhi liya kyuki last ma wo usey number se change hoga na ki index se . so hume index ka use karna pad rha h nhi to past ma jaka
+// min arr[i] isliye nhi liya kyuki last ma wo usey number se swap hoga na ki minimum index ka element se . so hume index ka use karna pad rha h nhi to last ma jaka
    //     wo 11 se swap ho jayega par 11 ki position original array ma se nhi badlegi.
         for(int j=i+1;j<n;j++){
             if(arr[j]<arr[minimum]){
